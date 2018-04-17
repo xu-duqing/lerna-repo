@@ -1,0 +1,13 @@
+0 silly input [ undefined ]
+1 silly flags { _: [ 'diff' ], 'reject-cycles': false, rejectCycles: false }
+2 verbose rootPath /Users/Guang/Workspace/github/lerna-repo
+3 info version 2.10.2
+4 silly isInitialized
+5 silly isInitialized true
+6 silly existsSync /Users/Guang/Workspace/github/lerna-repo/VERSION
+7 silly initialize attempt
+8 silly hasCommit
+9 verbose hasCommit false
+10 error initialize callback with error
+11 error Error: Can't diff. There are no commits in this repository, yet.
+11 error     at DiffCommand.initialize (/usr/local/lib/node_modules/lerna/lib/commands/DiffCommand.js:89:18)
